@@ -1,6 +1,6 @@
 import { createFakeContact } from '../utils/createFakeContact.js';
-import { readContacts } from '../utils/readContacts.js';
-import { writeContacts } from '../utils/writeContacts.js';
+import { readContacts } from './readContacts.js';
+import { writeContacts } from './writeContacts.js';
 
 export const saveContacts = async (number = 1) => {
   try {
